@@ -1,15 +1,18 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import App from "./App";
-import { makeServer } from "./server";
 
-// Call make Server
-makeServer();
 
-ReactDOM.render(
+// new API in react 18 for rendering
+const container = document.getElementById("root");
+const root = createRoot(container);
+
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <Router>
+        <App />
+    </Router>
+  </React.StrictMode>
 );
