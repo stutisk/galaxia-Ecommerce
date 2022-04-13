@@ -1,7 +1,11 @@
 import React from "react";
 
 const Checkoutpage = () => {
-  return <>Checkout Page</>;
+  return (
+    <div>Wishlist Page</div>
+  
+  )
+
 };
 
 export {Checkoutpage};

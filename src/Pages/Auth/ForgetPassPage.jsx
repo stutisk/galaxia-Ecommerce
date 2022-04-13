@@ -1,7 +1,11 @@
 import React from "react";
 
 const ForgetPassPage = () => {
-  return <>Forget Password Page</>;
+  return (
+    <div>Wishlist Page</div>
+  
+  )
+
 };
 
 export {ForgetPassPage};

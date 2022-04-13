@@ -1,7 +1,11 @@
 import React from "react";
 
 const Wishlist = () => {
-  return <>Wishlist Page</>;
+  return (
+    <div>Wishlist Page</div>
+  
+  )
+
 };
 
 export {Wishlist};

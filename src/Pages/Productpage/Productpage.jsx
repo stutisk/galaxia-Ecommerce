@@ -1,7 +1,12 @@
 import React from "react";
+import { Navbar } from "../../Components/Navbar/Navbar";
 
 const Productpage = () => {
-  return <>Product Page</>;
+  return (
+    <div> <Navbar /></div>
+  
+  )
+
 };
 
 export {Productpage};

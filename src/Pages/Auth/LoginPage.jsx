@@ -1,7 +1,11 @@
 import React from "react";
 
 const LoginPage= () => {
-  return <>Login Page</>;
+  return (
+    <div>Wishlist Page</div>
+  
+  )
+
 };
 
 export {LoginPage};
